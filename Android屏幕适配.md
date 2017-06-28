@@ -7,14 +7,14 @@
 ##  * （6）把项目中所使用的尺寸，都定义在dimen.xml中统一管理
 ##  * （7）使用布局别名 
 ###    (i)我们以res/values/dimens.xml尺寸文件为例，layout等其他文件夹和values同样适用。如下：
-       ```java
-           <dimen name="width">100dp</dimen>
-           <dimen name="width_sw600">600dp</dimen>
-       ```
+``` xml
+    <dimen name="width">100dp</dimen>
+    <dimen name="width_sw600">600dp</dimen>
+```
 ###    (ii)分别建立res/values-sw600dp/dimens.xml和res/values-large/dimens.xml并写入：
-      ```java
-          <item name="width" type="dimen">@dimen/width_sw600</item>
-      ```
+``` xml
+    <item name="width" type="dimen">@dimen/width_sw600</item>
+```
 ###    (iii)这样在程序运行中，如果当前手机的宽度大于600dp，则 R.dimen.width = 600dp，否则取值为100dp。
     
 ##  * （8）最小宽度限定符，在Android 3.2版本引入的（如：values-sw600dp/layout-sw480dp）
