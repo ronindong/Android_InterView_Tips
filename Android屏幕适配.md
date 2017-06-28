@@ -5,4 +5,4 @@
   * （4）限定屏幕方向（a.land-横屏;  b.port-竖屏）
   * （5）宽高使用dp，而不是px
   * （6）把项目中所使用的尺寸，都定义在dimen.xml中统一管理
-  ![尺寸限定符](sjf "android尺寸限定符")
+  ![尺寸限定符](Android_InterView_Tips/image/android-尺寸限定符.jpg "android尺寸限定符")
