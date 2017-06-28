@@ -27,3 +27,12 @@
   
   
   ![尺寸限定符](/image/android-尺寸限定符.jpg "android尺寸限定符")
+
+#### 不同像素密度下和dimen的取值表：
+名称 | 像素密度取值范围
+--- | ---
+mdpi | 120dpi ~ 160dpi
+hdpi | 160dpi ~ 240dpi
+xhdpi | 240dpi ~320dpi
+xxhdpi | 320dpi ~ 480dpi
+xxxhdpi | 4800dpi~640dpi
