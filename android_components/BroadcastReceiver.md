@@ -7,7 +7,7 @@
   
 ## 二、BroadcastReceiver使用场景
   * （1）应用程序内部不同组件之间的通信，包括APP多进程之间的通信<br/>
-  * （2）不同应用程序之间的消息通信<br/>
+  * （2）不同应用程序之间的消息通信<br/>
   
 ## 三、BroadcastReceiver类型
  * 一般广播（Normal Broadcast）：通过Context.sendBroadcast()发送;<br/>
