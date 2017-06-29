@@ -27,7 +27,7 @@
    * res/values-large-land/
   
   
-  ![尺寸限定符](https://github.com/ronindong/Android_InterView_Tips/blob/master/image/android-%E5%B0%BA%E5%AF%B8%E9%99%90%E5%AE%9A%E7%AC%A6.jpg "android尺寸限定符")
+  ![尺寸限定符](https://github.com/ronindong/Android_InterView_Tips/blob/master/image/android_size_limit.jpg "android尺寸限定符")
 
 #### 不同像素密度下和dimen的取值表：
 名称 | 像素密度取值范围
