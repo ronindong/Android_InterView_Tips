@@ -25,5 +25,5 @@
   * 
 
 ### 参考官方指导api：
-[BroadcastReceiver类讲解](https://developer.android.com/reference/android/content/BroadcastReceiver.html)
+[BroadcastReceiver类讲解](https://developer.android.com/reference/android/content/BroadcastReceiver.html) <br/>
 [Broadcasts开发指南介绍](https://developer.android.com/guide/components/broadcasts.html)
