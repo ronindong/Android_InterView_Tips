@@ -16,9 +16,9 @@ A facility for an application to expose some of its functionality to other appli
   ![service启动流程图](https://github.com/ronindong/Android_InterView_Tips/blob/master/image/service_start_flow.png)<br/>
   
 ## 三、Service和Thread的区别
-  * （1）如果你仅仅需要执行后台任务，并不需要和用户交互，此时你可以使用service。此时依然需要把耗时操作放在工作线程Thread中去执行。<br/>
-  * （2）如果你需要在主线程在执行任务，并且当需要和用户交互的时候，此时你可以选择新建一个thread而非service。<br/>
-  * （3）在某一个activity中去创建Thread，其他activity很难去控制该线程，无法去对thread进行操作。而Service可以和多个activity进行关联。
+ * （1）如果你仅仅需要执行后台任务，并不需要和用户交互，此时你可以使用service。此时依然需要把耗时操作放在工作线程Thread中去执行。<br/>
+ * （2）如果你需要在主线程在执行任务，并且当需要和用户交互的时候，此时你可以选择新建一个thread而非service。<br/>
+ * （3）在某一个activity中去创建Thread，其他activity很难去控制该线程，无法去对thread进行操作。而Service可以和多个activity进行关联。
 
 
 ### 参考官方指导api:
